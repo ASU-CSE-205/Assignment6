@@ -2,7 +2,8 @@
 //         Name: Suvan Kumar
 //    StudentID: 1221910898
 //      Lecture: MWF 10:10 - 11am
-//  Description: ADD THIS
+//  Description: Delcares and initializes the Fleet Pane window that displays
+//				 the fleet and their aircrafts within it. 
 
 import java.util.ArrayList;
 import javafx.event.ActionEvent;

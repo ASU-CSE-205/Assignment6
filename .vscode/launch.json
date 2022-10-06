@@ -9,14 +9,14 @@
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
-        },
+        }
         {
             "type": "java",
             "name": "Launch Main",
             "request": "launch",
             "mainClass": "Main",
-            "projectName": "folder_8bf843e5",
-            "vmArgs": "--module-path /Users/kumar/Downloads/javafx-sdk-19/lib --add-modules javafx.controls,javafx.fxml",
+            "projectName": "Assignment6_d504e5d2",
+            "vmArgs": "--module-path /Users/kumar/Library/Java/javafx-sdk-19/lib --add-modules javafx.controls,javafx.fxml",
         }
     ]
-}
+}   

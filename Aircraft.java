@@ -2,7 +2,7 @@
 //         Name: Suvan Kumar
 //    StudentID: 1221910898
 //      Lecture: MWF 10:10 - 11am
-//  Description: ADD THIS
+//  Description: The Aircraft class houses the types of aircrafts and their attributes. 
 
 public class Aircraft {
 	private String type;

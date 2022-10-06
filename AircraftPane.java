@@ -2,7 +2,8 @@
 //         Name: Suvan Kumar
 //    StudentID: 1221910898
 //      Lecture: MWF 10:10 - 11am
-//  Description: ADD THIS
+//  Description: The AircraftPane class creates the Add Aircraft tab
+//				 as well as dealing with the interactions from the user. 
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -90,7 +91,7 @@ public class AircraftPane extends HBox {
 		aircraftTypeComboBox.getItems().addAll(aircraftType);
 		aircraftTypeComboBox.setOnAction(new AircraftTypeComboBoxHandler());
 		leftVBox.getChildren().add(aircraftTypeComboBox);
-
+		rightTextArea.setEditable(false);
 		
 		// COMPLETED 1. a) Initialize the instance variables
 		// This is where you use the "new" keyword
@@ -351,7 +352,7 @@ public class AircraftPane extends HBox {
 		for (int i = 0; i < aircraftList.size(); i++) {
 			aircraftInfo = aircraftInfo + aircraftList.get(i).toString();
 		}
-		
+		rightTextArea.setText(aircraftInfo);
 		// ^^^^^^ 4. a) ^^^^^^
 	}
 	

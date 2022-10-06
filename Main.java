@@ -2,7 +2,7 @@
 //         Name: Suvan Kumar
 //    StudentID: 1221910898
 //      Lecture: MWF 10:10 - 11am
-//Description: The Assignment6 class creates a TabPane Pane with
+//Description: The Main class creates a TabPane Pane with
 //           two tabs, one for adding Aircrafts and one for
 //           creating a fleet
 
